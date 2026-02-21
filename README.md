@@ -1,3 +1,5 @@
+🌱 EcoMart
+
 EcoMart is a frontend web application currently under development, intended to become a second-hand e-commerce marketplace.
 The goal of the project is to promote reuse and sustainability by enabling users to buy and sell pre-owned products.
 
