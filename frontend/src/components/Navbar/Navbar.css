@@ -1,0 +1,118 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+              0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+/* LOGO */
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo img{
+  width: 50px;
+  height: auto;
+}
+
+.nav-logo p{
+  color: #171717;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+/* MENU LIST */
+.nav-menu{
+  display: flex;           
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* EACH ITEM */
+.nav-menu li{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* LINK RESET */
+.nav-menu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HOVER */
+.nav-menu li:hover{
+  color: #171717;
+}
+
+/* UNDERLINE */
+.nav-menu hr{
+  width: 0;
+  height: 3px;
+  border: none;
+  border-radius: 10px;
+  background-color: #171717;
+  margin-top: 6px;
+  transition: width 0.3s ease;
+}
+
+/* HOVER UNDERLINE */
+.nav-menu li:hover hr{
+  width: 80%;
+}
+
+/* ACTIVE UNDERLINE */
+.nav-menu .active hr{
+  width: 80%;
+}
+
+/* LOGIN + CART */
+.nav-login-cart{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+/* LOGIN BUTTON */
+.nav-login-cart button{
+  width: 157px;
+  height: 58px;
+  background-color: #171717;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-login-cart button:hover{
+  background-color: #08a0ca;
+}
+
+/* CART ICON */
+.nav-login-cart img{
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}

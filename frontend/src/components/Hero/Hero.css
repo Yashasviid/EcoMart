@@ -1,0 +1,67 @@
+.hero{
+  width: 100%;
+  height: calc(100vh - 80px); /* navbar ke liye space */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+/* LEFT SIDE */
+.hero-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-left h2{
+  color: #090909;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.hero-left p{
+  color: #171717;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+
+/* BUTTON */
+.hero-latest-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 260px;
+  height: 60px;
+  margin-top: 25px;
+  border-radius: 30px;
+  background: #ff4141;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-latest-btn img{
+  width: 18px;
+}
+
+/* RIGHT SIDE */
+.hero-right{
+  flex: 1;
+  display: flex;
+  align-items: flex-end;   /* 🔥 MAIN FIX */
+  justify-content: center;
+}
+
+.hero-right img{
+  height: 85vh;            /* 🔥 responsive & bottom aligned */
+  object-fit: contain;
+}
