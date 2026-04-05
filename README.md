@@ -1,43 +1,30 @@
-🌱 EcoMart
+# EcoMart
 
-EcoMart is a frontend web application currently under development, intended to become a second-hand e-commerce marketplace.
-The goal of the project is to promote reuse and sustainability by enabling users to buy and sell pre-owned products.
+EcoMart is a frontend web application currently under development, aimed at becoming a second-hand e-commerce marketplace. The project focuses on promoting reuse and sustainability by allowing users to buy and sell pre-owned products.
 
-🚧 Project Status
+## Project Status
 
-⚠️ This project is a work in progress.
-Core features and UI are still being designed and implemented.
+This project is a work in progress. Core features and the user interface are still being designed and implemented.
 
-🎯 Project Intent
+## Project Goals
 
-Build a 2nd-hand buying & selling platform
+- Develop a platform for buying and selling second-hand products
+- Promote sustainable consumption
+- Gain experience with real-world frontend architecture
+- Design a scalable and user-friendly UI for an e-commerce application
 
-Encourage sustainable consumption
+## Planned Features
 
-Practice real-world frontend architecture
+- User authentication for buyers and sellers
+- Ability to list second-hand products
+- Product images and detailed descriptions
+- Search functionality and category-based browsing
+- Shopping cart and checkout flow (planned for future implementation)
+- Fully responsive design
 
-Design scalable UI for an e-commerce application
+## Tech Stack (Planned / In Use)
 
-🛠️ Planned Features
-
-👤 User authentication (buyers & sellers)
-
-📦 List second-hand products
-
-🖼️ Product images & descriptions
-
-🔍 Search and category-based browsing
-
-🛒 Cart & checkout flow (future)
-
-📱 Fully responsive design
-
-🧰 Tech Stack (Planned / In Use)
-
-React.js
-
-JavaScript (ES6+)
-
-HTML5
-
-CSS3
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
